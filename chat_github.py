@@ -1,17 +1,12 @@
 import subprocess
 import os
-from dotenv import load_dotenv
 import streamlit as st 
 import openai
 
-# Load environment variables from .env
-load_dotenv() 
-
-# openai.api_key = os.getenv("OPENAI_API_KEY")
 st.set_page_config(layout='wide')
 st.markdown("""
 
-                <h3 style='text-align: center; color: black;'>Chat-with-Github</h3>""", unsafe_allow_html=True)
+                <h3 style='text-align: center; color: black;'>MakAi-Chat-with-Github</h3>""", unsafe_allow_html=True)
 col1, col2 = st.columns(2)
 with col1:
     st.markdown("""
